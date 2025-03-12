@@ -20,6 +20,18 @@ spring:
         time-between-eviction-runs: 10s
   jackson:
     default-property-inclusion: non_null # JSON处理时忽略非空字段
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: dianping
+    password: 1234
+    listener:
+      simple:
+        prefetch: 1 # 每次只能拿一条信息，处理完后才能继续获取下一条信息
+        concurrency: 1
+        max-concurrency: 1 # 只有一个线程消费信息
+        acknowledge-mode: manual # 手动确认
+    virtual-host: /dianping
 mybatis-plus:
   type-aliases-package: com.hmdp.entity # 别名扫描包
 logging:
