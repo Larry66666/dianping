@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
+      <excludeFolder url="file://$MODULE_DIR$/hmdp-nginx/nginx-1.18.0/conf" />
+      <excludeFolder url="file://$MODULE_DIR$/hmdp-nginx/nginx-1.18.0/contrib" />
+      <excludeFolder url="file://$MODULE_DIR$/hmdp-nginx/nginx-1.18.0/docs" />
+      <excludeFolder url="file://$MODULE_DIR$/hmdp-nginx/nginx-1.18.0/html" />
+      <excludeFolder url="file://$MODULE_DIR$/hmdp-nginx/nginx-1.18.0/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/nginx-1.18.0" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+  </component>
+</module>
